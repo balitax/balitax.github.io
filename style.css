@@ -1,0 +1,44 @@
+body{
+	background-image:url('mac.jpg');
+	background-size:cover;
+	font-family:Raleway,Open Sans,Droid Sans,arial,sans-serif;
+}
+body:before {
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: #a83279;
+    background-repeat: repeat-x;
+    background-image: -webkit-linear-gradient(-45deg,#a83279,#d38312);
+    background-image: linear-gradient(-45deg,#a83279,#d38312);
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+.bio{
+	height:200px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	text-align:center;
+	color: #fff;
+}
+h1,h2{
+	font-weight:100;
+}
+h2{
+	font-size:15px;
+}
+.social-links{margin-top:50px;}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+a:hover{text-decoration:underline}
+.fa{margin:0 10px;}
